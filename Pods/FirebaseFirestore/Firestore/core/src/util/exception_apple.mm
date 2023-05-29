@@ -64,7 +64,7 @@ ABSL_ATTRIBUTE_NORETURN void ObjcThrowHandler(ExceptionType type,
                                 MakeNSString(message)];
     std::terminate();
   } else {
-    @throw MakeException(type, message);  // NOLINT
+      @throw MakeException(type, message);  // NOLINT
   }
 }
 

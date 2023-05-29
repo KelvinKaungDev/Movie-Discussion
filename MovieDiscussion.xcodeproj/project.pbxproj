@@ -22,7 +22,7 @@
 		BC04C26C2A22402D00A2AAC0 /* ReigsterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC04C26B2A22402D00A2AAC0 /* ReigsterController.swift */; };
 		BC04C26E2A22403700A2AAC0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC04C26D2A22403700A2AAC0 /* LoginController.swift */; };
 		BC56D3BE2A2247CE0038D680 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC56D3BD2A2247CE0038D680 /* Constant.swift */; };
-		BC56D3C02A22562A0038D680 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC56D3BF2A22562A0038D680 /* GoogleService-Info-2.plist */; };
+		BCA025942A24B7DB00ABE212 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCA025932A24B7DA00ABE212 /* GoogleService-Info.plist */; };
 		E9615CD1009CE1C25DF9AB8B /* Pods_MovieDiscussion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA37CC5C88927C60947B2DF1 /* Pods_MovieDiscussion.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +66,7 @@
 		BC04C26B2A22402D00A2AAC0 /* ReigsterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReigsterController.swift; sourceTree = "<group>"; };
 		BC04C26D2A22403700A2AAC0 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		BC56D3BD2A2247CE0038D680 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		BC56D3BF2A22562A0038D680 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-2.plist"; path = "../../../../Downloads/GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		BCA025932A24B7DA00ABE212 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C1C7585EB5BC8172E77A2A32 /* Pods-MovieDiscussion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDiscussion.release.xcconfig"; path = "Target Support Files/Pods-MovieDiscussion/Pods-MovieDiscussion.release.xcconfig"; sourceTree = "<group>"; };
 		CE0E812E3F57E19EA1B7177D /* Pods-MovieDiscussion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDiscussion.debug.xcconfig"; path = "Target Support Files/Pods-MovieDiscussion/Pods-MovieDiscussion.debug.xcconfig"; sourceTree = "<group>"; };
 		DA37CC5C88927C60947B2DF1 /* Pods_MovieDiscussion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieDiscussion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +111,6 @@
 				05A6C39DBA3D3BE5581AF3FC /* Pods-MovieDiscussionTests.debug.xcconfig */,
 				A46C037D7B907EB741886857 /* Pods-MovieDiscussionTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,14 +149,14 @@
 		BC04C2362A21F00800A2AAC0 /* MovieDiscussion */ = {
 			isa = PBXGroup;
 			children = (
-				BC04C2672A223B3600A2AAC0 /* Controller */,
 				BC04C2372A21F00800A2AAC0 /* AppDelegate.swift */,
 				BC04C2392A21F00800A2AAC0 /* SceneDelegate.swift */,
-				BC04C23D2A21F00800A2AAC0 /* Main.storyboard */,
 				BC04C2402A21F00A00A2AAC0 /* Assets.xcassets */,
+				BC63455C2A24F1EE00B21E13 /* View */,
+				BC04C2672A223B3600A2AAC0 /* Controller */,
 				BC04C2422A21F00A00A2AAC0 /* LaunchScreen.storyboard */,
 				BC04C2452A21F00A00A2AAC0 /* Info.plist */,
-				BC56D3BF2A22562A0038D680 /* GoogleService-Info-2.plist */,
+				BCA025932A24B7DA00ABE212 /* GoogleService-Info.plist */,
 			);
 			path = MovieDiscussion;
 			sourceTree = "<group>";
@@ -197,6 +196,14 @@
 				BC04C26D2A22403700A2AAC0 /* LoginController.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		BC63455C2A24F1EE00B21E13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC04C23D2A21F00800A2AAC0 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,7 +317,7 @@
 			files = (
 				BC04C2442A21F00A00A2AAC0 /* LaunchScreen.storyboard in Resources */,
 				BC04C2412A21F00A00A2AAC0 /* Assets.xcassets in Resources */,
-				BC56D3C02A22562A0038D680 /* GoogleService-Info-2.plist in Resources */,
+				BCA025942A24B7DB00ABE212 /* GoogleService-Info.plist in Resources */,
 				BC04C23F2A21F00800A2AAC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

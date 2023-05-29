@@ -17,11 +17,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func reigsterButton(_ sender: UIButton) {
-        performSegue(withIdentifier: K.Segues.Register, sender: self)
+        performSegue(withIdentifier: K.Auth.Register, sender: self)
     }
     
     @IBAction func loginButton(_ sender: UIButton) {
-        performSegue(withIdentifier: K.Segues.Login, sender: self)
+        performSegue(withIdentifier: K.Auth.Login, sender: self)
     }
     
 }
