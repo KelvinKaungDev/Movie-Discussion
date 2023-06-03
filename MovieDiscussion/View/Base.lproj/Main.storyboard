@@ -149,7 +149,7 @@
                                 <color key="textColor" red="0.73806300309999995" green="0.16608337009999999" blue="0.14204901449999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fON-Au-6Xf">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="kaunghtetoo884@gmail.com" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fON-Au-6Xf">
                                 <rect key="frame" x="16" y="170" width="361" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -162,7 +162,7 @@
                                 <color key="textColor" red="0.73806300309999995" green="0.16608337009999999" blue="0.14204901449999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SI8-PT-ZD2">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="kaung4241" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SI8-PT-ZD2">
                                 <rect key="frame" x="16" y="273" width="361" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -227,6 +227,9 @@
                                 <buttonConfiguration key="configuration" style="plain" image="minus.magnifyingglass" catalog="system">
                                     <color key="baseForegroundColor" red="0.73806300309999995" green="0.16608337009999999" blue="0.14204901449999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="search:" destination="B65-AQ-6Uw" eventType="touchUpInside" id="rxq-0i-BXu"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fjL-5j-7xm"/>
@@ -241,6 +244,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="movieImg" destination="u6B-b0-OK4" id="Uil-bU-YQm"/>
+                        <outlet property="movieTitle" destination="Cu6-je-RtQ" id="tFa-ad-LOg"/>
+                        <outlet property="search" destination="v5S-Vq-qZL" id="cdM-pi-Zfw"/>
                         <outlet property="searchField" destination="n9g-TM-lL5" id="fgm-1j-MdQ"/>
                     </connections>
                 </viewController>
@@ -268,7 +274,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sRx-MJ-bjr"/>
+        <segue reference="Asf-jO-Wc9"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="logo" width="166.66667175292969" height="166.66667175292969"/>
